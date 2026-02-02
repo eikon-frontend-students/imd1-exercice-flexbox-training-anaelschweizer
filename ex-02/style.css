@@ -2,6 +2,10 @@
   /* 🦊 Active Flexbox sur l'arena. */
   /* Répartis les items sur toute la largeur. */
   /* Aligne-les verticalement au centre. */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* 🟢 Auto-évaluation */
