@@ -2,6 +2,9 @@
   /* 🦊 Active Flexbox sur l'arena. */
   /* Centre les items sur les deux axes. */
   /* Ajoute un espace régulier entre les items. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 🟢 Auto-évaluation */
