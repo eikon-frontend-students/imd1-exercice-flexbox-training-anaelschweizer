@@ -1,10 +1,14 @@
 .arena {
   /* 🦊 Active Flexbox sur l'arena. */
   /* Aligne les items au centre sur l'axe vertical. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item--special {
   /* 🦊 Donne un alignement différent à cet item. */
+  align-self: end;
 }
 
 /* 🟢 Auto-évaluation */

@@ -2,6 +2,9 @@
   /* 🦊 Active flexbox sur l'arena. */
   /* Autorise le retour à la ligne. */
   /* Ajoute un espace régulier entre les items. */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 /* 🟢 Auto-évaluation */

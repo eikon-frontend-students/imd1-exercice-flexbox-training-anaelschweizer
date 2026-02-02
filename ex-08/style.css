@@ -2,3 +2,31 @@
 /* Il n'y pas de solution unique, utilisez les propriétés Flexbox que vous jugez appropriées. */
 /* N'oubliez pas de tester le rendu en responsive ! */
 /* Aucun changement n'est à faire dans le HTML. */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.nav-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+}
+
+.item--nav {
+  display: flex;
+  gap: 12px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item--content {
+  flex-grow: 1;
+  flex-basis: 150px;
+}

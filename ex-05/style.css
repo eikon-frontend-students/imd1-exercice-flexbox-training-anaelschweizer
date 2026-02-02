@@ -1,10 +1,13 @@
 .arena {
   /* 🦊 Active flexbox sur l'arena. */
   /* Ajoute un espace régulier entre les items. */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .item--grow {
   /* 🦊 Fais grandir cet item pour qu'il prenne l'espace restant. */
+  flex-grow: 1;
 }
 
 /* 🟢 Auto-évaluation */
